@@ -152,7 +152,9 @@ class QualityControl:
         header_indexes_to_ignore: list of nested header indexes that you can ignore or do not want included in the flattened column header
 
         @returns
-        sdf: pyspark dataframe of the table with flattened headers  
+        sdf: pyspark dataframe of the table with flattened headers
+
+        contributions by: Ally Dugan, allyson.dugan@cadmusgroup.com  
         """
         header_indexes = [x for x in list(range(count_nested_headers)) if x not in header_indexes_to_ignore] 
 
