@@ -31,13 +31,13 @@ Conditioning raw data, generating summaries of large tables and comparing any tw
 and have many use cases. 
 
 * Conditioning a raw input file  
-    Given a raw, unstructured .csv file:
+    Given a raw, unstructured .csv file:  
     ![alt text](images/test_input_example0.png)    
-    Flatten nested headers and set correct datatype:
-    ![alt text](images/test_output_example0.png)  
+    Flatten nested headers and set correct datatype:  
+    ![alt text](images/test_output_example0.png)   
 
-* Generating a summary table  
-    Create a summary of each field in data table such that given input,  
+* Generating a summary table   
+    Create a summary of each field in data table such that given input,   
     ![alt text](images/test_input_example1.png)  
     a summary table is created:  
     ![alt text](images/test_output_example1.png)  
